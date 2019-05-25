@@ -13,9 +13,6 @@
     "yeelight",
     "mijia"
   ],
-  "bin": {
-    "miio": "./cli/index.js"
-  },
   "scripts": {
     "test": "node_modules/.bin/eslint ."
   },
@@ -31,5 +28,6 @@
   "devDependencies": {
     "eslint": "^4.14.0",
     "eslint-plugin-node": "^5.2.1"
-  }
+  },
+  "types": "lib/index.d.ts"
 }
