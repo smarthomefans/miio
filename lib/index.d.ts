@@ -14,6 +14,12 @@ declare module "miio-lite" {
         cacheTime?: number;
         tokens?: Record<string, string>;
     }
+    type devicesPara = {
+        cacheTime?: number;
+        tokens?: Record<string, string>;
+        filter?: (any)=>boolean;
+        skipSubDevices?: boolean;
+    }
 
     interface Device {
         management: DeviceManagement;
@@ -30,4 +36,5 @@ declare module "miio-lite" {
 
     export function device(para: RegisterInfo): any;
     export function browse(para: browsePara): any;
+    export function devices(para: devicesPara): any;
 }
