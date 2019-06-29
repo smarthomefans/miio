@@ -17,7 +17,7 @@ declare module "miio-lite" {
     type devicesPara = {
         cacheTime?: number;
         tokens?: Record<string, string>;
-        filter?: (any)=>boolean;
+        filter?: (f: any)=>boolean;
         skipSubDevices?: boolean;
     }
 
