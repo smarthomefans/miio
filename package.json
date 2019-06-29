@@ -1,6 +1,6 @@
 {
   "name": "miio-lite",
-  "version": "0.15.6",
+  "version": "0.15.7",
   "license": "MIT",
   "description": "Control Mi Home devices, such as Mi Robot Vacuums, Mi Air Purifiers, Mi Smart Home Gateway (Aqara) and more",
   "repository": "smarthomefans/miio",
