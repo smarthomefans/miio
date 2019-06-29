@@ -11,7 +11,8 @@ declare module "miio-lite" {
         id?: string;
     }
     type browsePara = {
-        cacheTime: number
+        cacheTime?: number;
+        tokens?: Record<string, string>;
     }
 
     interface Device {
